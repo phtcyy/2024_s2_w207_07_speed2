@@ -1,0 +1,45 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .articleList {
+    margin-top: 20px;
+  }
+  
+  .articleItem {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+  }
+  
+  .articleItem p {
+    margin: 5px 0;
+  }
+  
+  .articleItem a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .articleItem a:hover {
+    text-decoration: underline;
+  }
+  
+  .articleButton {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .articleButton:hover {
+    background-color: #c82333;
+  }
+  

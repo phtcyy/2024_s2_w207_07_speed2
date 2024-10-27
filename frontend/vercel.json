@@ -1,0 +1,9 @@
+{
+  "framework": "nextjs",
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://test-nest-git-main-fuzhu666s-projects.vercel.app/$1"
+    }
+  ]
+}

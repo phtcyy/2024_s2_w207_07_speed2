@@ -1,0 +1,49 @@
+{
+  "name": "speed-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nestjs/passport": "^10.0.3",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "mongoose": "^8.6.1",
+    "next": "^14.2.13",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.25.4",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.7",
+    "@babel/plugin-transform-numeric-separator": "^7.24.7",
+    "@babel/plugin-transform-optional-chaining": "^7.24.8",
+    "@babel/plugin-transform-private-methods": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "@types/node": "^20",
+    "@types/react": "18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "glob": "^9.3.5",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.5.1",
+    "postcss": "^8",
+    "react-scripts": "^5.0.1",
+    "rimraf": "^4.4.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "4.9.5"
+  }
+}

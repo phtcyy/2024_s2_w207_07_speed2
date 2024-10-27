@@ -1,0 +1,32 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articleTable {
+  width: 100%;
+  border-collapse: collapse; /* 使表格边框不重叠 */
+  margin-top: 20px;
+}
+
+.articleTable th, .articleTable td {
+  border: 1px solid #ddd; /* 边框样式 */
+  padding: 10px;
+  text-align: left;
+}
+
+.articleTable th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.articleTable td a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.articleTable td a:hover {
+  text-decoration: underline;
+}

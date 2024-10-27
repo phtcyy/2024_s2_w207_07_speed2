@@ -1,0 +1,69 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.articleList {
+  margin-top: 20px;
+}
+
+.articleItem {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+}
+
+.articleItem p {
+  margin: 5px 0;
+}
+
+.articleItem a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.articleItem a:hover {
+  text-decoration: underline;
+}
+
+.buttonContainer {
+  margin-top: 15px;
+}
+
+.articleButton {
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.articleButton:hover {
+  background-color: #0056b3;
+}
+
+.bookmarksLink {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.bookmarksLink a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bookmarksLink a:hover {
+  text-decoration: underline;
+}
